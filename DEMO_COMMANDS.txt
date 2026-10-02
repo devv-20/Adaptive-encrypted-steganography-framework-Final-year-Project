@@ -1,0 +1,108 @@
+=====================================================================
+  ADAPTIVE ENCRYPTED STEGANOGRAPHIC FRAMEWORK - DEMO COMMANDS
+  Run all commands from the project root folder.
+  Shell: PowerShell (use single-line commands below)
+=====================================================================
+
+  PROJECT FOLDER STRUCTURE:
+  --------------------------
+  Final Project\
+  |-- inputs\
+  |   |-- covers\        <-- Put your cover images/videos here
+  |   |-- secrets\       <-- Put your secret images/videos here
+  |-- outputs\
+  |   |-- stego_images\  <-- Stego outputs are saved here
+  |   |-- extracted\     <-- Recovered secrets are saved here
+  |   |-- results\       <-- Graphs and dashboards saved here
+  |-- steganography_framework\
+  |-- DEMO_COMMANDS.txt
+
+---------------------------------------------------------------------
+  IMAGE STEGANOGRAPHY
+---------------------------------------------------------------------
+
+STEP 1 - EMBED (Hides secret inside cover image + generates evaluation graph)
+------------------------------------------------------------------------------
+python -m steganography_framework.main embed --cover "inputs\covers\008_kingfisher-881594_640.jpg" --secret "inputs\secrets\al_khalid_l1.jpg" --output "outputs\stego_images\kingfisher_stego.png" --evaluate
+
+  >>> IMPORTANT: After running the above, the console will print:
+      Generated Key (hex):   <COPY THIS>
+      Generated Nonce (hex): <COPY THIS>
+      Save both values before continuing to Step 2!
+
+  >>> OUTPUT FILES:
+      - outputs\stego_images\kingfisher_stego.png
+      - outputs\results\image_evaluation_results.png
+
+
+STEP 2 - EXTRACT (Recovers secret + generates Dashboard + Comparison Grid)
+---------------------------------------------------------------------------
+python -m steganography_framework.main extract --stego "outputs\stego_images\kingfisher_stego.png" --key "PASTE_YOUR_KEY_HERE" --nonce "PASTE_YOUR_NONCE_HERE" --output "outputs\extracted\extracted_secret.jpg" --cover "inputs\covers\008_kingfisher-881594_640.jpg" --secret "inputs\secrets\al_khalid_l1.jpg" --visualize
+
+  >>> OUTPUT FILES:
+      - outputs\extracted\extracted_secret.jpg
+      - outputs\results\evaluation_dashboard.png
+      - outputs\results\comparison_grid.png
+
+
+---------------------------------------------------------------------
+  MORE COVER + SECRET COMBINATIONS (ready to use)
+---------------------------------------------------------------------
+
+  Cover:  inputs\covers\008_kingfisher-881594_640.jpg
+  Secret: inputs\secrets\al_khalid_l1.jpg
+  Output: outputs\stego_images\kingfisher_stego.png
+
+  Cover:  inputs\covers\017-stm-radnice-0288ret-m.jpg
+  Secret: inputs\secrets\al_khalid_l1.jpg
+  Output: outputs\stego_images\radnice_stego.png
+
+  Cover:  inputs\covers\guitar-7752537_1280.jpg
+  Secret: inputs\secrets\image-asset.webp
+  Output: outputs\stego_images\guitar_stego.png
+
+  Cover:  inputs\covers\guitar-7752537_1280.jpg
+  Secret: inputs\secrets\kidney_normal_0001.jpg
+  Output: outputs\stego_images\guitar_kidney_stego.png
+
+  Cover:  inputs\covers\swan.jpg
+  Secret: inputs\secrets\covid.jpg
+  Output: outputs\stego_images\swanstego.png
+
+
+---------------------------------------------------------------------
+  VIDEO STEGANOGRAPHY
+---------------------------------------------------------------------
+
+STEP 1 - EMBED VIDEO
+--------------------
+python -m steganography_framework.main embed --cover "inputs\covers\skating.mp4" --secret "inputs\secrets\training.mp4" --output "outputs\stego_images\skating_stego.mp4" --evaluate
+
+  >>> IMPORTANT: Copy the Key and Nonce printed to the console!
+
+  >>> OUTPUT FILES:
+      - outputs\stego_images\skating_stego.mp4
+      - outputs\results\video_evaluation_results.png
+
+
+STEP 2 - EXTRACT VIDEO
+----------------------
+python -m steganography_framework.main extract --stego "outputs\stego_images\skating_stego.mp4" --key "PASTE_YOUR_KEY_HERE" --nonce "PASTE_YOUR_NONCE_HERE" --output "outputs\extracted\extracted_from_video.mp4"
+
+
+---------------------------------------------------------------------
+  PERFECT METRIC REFERENCE (What to aim for)
+---------------------------------------------------------------------
+
+  BER (Bit Error Rate)  -->  Perfect = 0.0         (lower is better)
+  SSIM                  -->  Perfect = 1.0         (higher is better, aim > 0.98)
+  PSNR                  -->  Perfect >= 40 dB      (higher is better, > 50 dB = excellent)
+  MSE                   -->  Perfect = 0.0         (lower is better)
+  Recovery Rate         -->  Perfect = 100%        (use properly sized payload)
+
+
+=====================================================================
+  TIP: To add new images/videos for a demo run, just drop files into:
+       inputs\covers\   and   inputs\secrets\
+  then update the --cover and --secret paths in the commands above.
+=====================================================================
