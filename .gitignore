@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+
+# Local settings, secrets, and runtime artifacts
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.nonce
+logs/
+
+# Private or large input/output data (keep code and documentation only)
+/inputs/**
+!/inputs/.gitkeep
+/outputs/**
+!/outputs/.gitkeep
+
+# Downloaded FFmpeg distribution is large and has its own license
+/vendor/
+
+# Local research/source material and derived text
+/(1)base ppr.pdf
+/extracted_text.txt
+
+# Editor/OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
