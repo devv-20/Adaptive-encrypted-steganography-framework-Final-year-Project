@@ -1,0 +1,242 @@
+[
+    {
+        "label": "BlackHawk1",
+        "timestamp": "2026-04-21 23:20:45",
+        "metrics": {
+            "psnr": 37.90247531301425,
+            "ssim": 0.9626990503473399,
+            "mse": 10.539809226989746,
+            "ber": 0.23047671245452542,
+            "bpp": 15.671166416463377,
+            "payload_bytes": 4008559,
+            "extracted_bytes": 2302124,
+            "byte_match": false,
+            "embed_time_sec": 35.81840801239014,
+            "throughput_bytes_per_sec": 111913.37701590138
+        }
+    },
+    {
+        "label": "BlackHawk1",
+        "timestamp": "2026-04-21 23:28:42",
+        "metrics": {
+            "psnr": 37.90652495165687,
+            "ssim": 0.9627481703588217,
+            "mse": 10.529983520507812,
+            "ber": 0.23047671245452542,
+            "bpp": 15.671166416463377,
+            "payload_bytes": 4008559,
+            "extracted_bytes": 2302124,
+            "byte_match": false,
+            "embed_time_sec": 37.65578651428223,
+            "throughput_bytes_per_sec": 106452.66959115617
+        }
+    },
+    {
+        "label": "kidney normal 0001",
+        "timestamp": "2026-04-21 23:32:07",
+        "metrics": {
+            "psnr": 51.255132845686326,
+            "ssim": 0.995962902865799,
+            "mse": 0.48704275488853455,
+            "ber": 0.0,
+            "bpp": 0.4268339201877934,
+            "payload_bytes": 58186,
+            "extracted_bytes": 58186,
+            "byte_match": true,
+            "embed_time_sec": 1.6335642337799072,
+            "throughput_bytes_per_sec": 35619.04625284511
+        }
+    },
+    {
+        "label": "kidney normal 0001",
+        "timestamp": "2026-04-21 23:38:55",
+        "metrics": {
+            "psnr": 51.260068807207375,
+            "ssim": 0.9959679706406406,
+            "mse": 0.48648950457572937,
+            "ber": 0.0,
+            "bpp": 0.4268339201877934,
+            "payload_bytes": 58186,
+            "extracted_bytes": 58186,
+            "byte_match": true,
+            "embed_time_sec": 2.577322006225586,
+            "throughput_bytes_per_sec": 22576.146814193282
+        }
+    },
+    {
+        "label": "image asset",
+        "timestamp": "2026-04-22 00:22:54",
+        "metrics": {
+            "psnr": 40.05786940908794,
+            "ssim": 0.9333516158682708,
+            "mse": 6.41642951965332,
+            "ber": 0.0,
+            "bpp": 5.482222222222222,
+            "payload_bytes": 157888,
+            "extracted_bytes": 157888,
+            "byte_match": true,
+            "embed_time_sec": 3.115406036376953,
+            "throughput_bytes_per_sec": 50679.750297850456
+        }
+    },
+    {
+        "label": "al khalid l1",
+        "timestamp": "2026-04-22 00:26:45",
+        "metrics": {
+            "psnr": 46.95172003700308,
+            "ssim": 0.986664752601067,
+            "mse": 1.3119230270385742,
+            "ber": 0.0,
+            "bpp": 1.1218294551823356,
+            "payload_bytes": 286955,
+            "extracted_bytes": 286955,
+            "byte_match": true,
+            "embed_time_sec": 6.710043668746948,
+            "throughput_bytes_per_sec": 42764.99739286894
+        }
+    },
+    {
+        "label": "kidney normal 0001",
+        "timestamp": "2026-04-22 00:35:35",
+        "metrics": {
+            "psnr": 51.27328167124774,
+            "ssim": 0.9959799430267676,
+            "mse": 0.48501166701316833,
+            "ber": 0.0,
+            "bpp": 0.4268339201877934,
+            "payload_bytes": 58186,
+            "extracted_bytes": 58186,
+            "byte_match": true,
+            "embed_time_sec": 2.093823194503784,
+            "throughput_bytes_per_sec": 27789.356882059717
+        }
+    },
+    {
+        "label": "al khalid l1",
+        "timestamp": "2026-04-22 02:00:52",
+        "metrics": {
+            "psnr": 37.9043007594441,
+            "ssim": 0.8921612049471217,
+            "mse": 10.535382270812988,
+            "ber": 0.04642975379414891,
+            "bpp": 9.963715277777778,
+            "payload_bytes": 286955,
+            "extracted_bytes": 259196,
+            "byte_match": false,
+            "embed_time_sec": 4.237752437591553,
+            "throughput_bytes_per_sec": 67713.96022441686
+        }
+    },
+    {
+        "label": "swanstego",
+        "timestamp": "2026-04-22 02:10:11",
+        "metrics": {
+            "psnr": 78.0668613830576,
+            "ssim": 0.9999977506548533,
+            "mse": 0.0010148321744054556,
+            "ber": 0.0,
+            "bpp": 0.000702576112412178,
+            "payload_bytes": 24,
+            "extracted_bytes": 24,
+            "byte_match": true,
+            "embed_time_sec": 0.3720376491546631,
+            "throughput_bytes_per_sec": 64.50960018302541
+        }
+    },
+    {
+        "label": "covid",
+        "timestamp": "2026-04-22 02:20:57",
+        "metrics": {
+            "psnr": 44.92837922790293,
+            "ssim": 0.9768786534730522,
+            "mse": 2.0904626846313477,
+            "ber": 0.0,
+            "bpp": 1.8273419203747072,
+            "payload_bytes": 62422,
+            "extracted_bytes": 62422,
+            "byte_match": true,
+            "embed_time_sec": 0.7740635871887207,
+            "throughput_bytes_per_sec": 80641.9537530593
+        }
+    },
+    {
+        "label": "airbase",
+        "timestamp": "2026-04-23 09:42:35",
+        "metrics": {
+            "psnr": 48.967872101034125,
+            "ssim": 0.9772623542746013,
+            "mse": 0.8246945738792419,
+            "ber": 0.0,
+            "bpp": 0.5303720083246618,
+            "payload_bytes": 81550,
+            "extracted_bytes": 81550,
+            "byte_match": true,
+            "embed_time_sec": 3.126499652862549,
+            "throughput_bytes_per_sec": 26083.482825700863
+        }
+    },
+    {
+        "label": "jet",
+        "timestamp": "2026-04-23 11:46:17",
+        "metrics": {
+            "psnr": 37.369554873045246,
+            "ssim": 0.9176159037736221,
+            "mse": 11.91584587097168,
+            "ber": 0.2897386822901869,
+            "bpp": 22.874297423887587,
+            "payload_bytes": 781386,
+            "extracted_bytes": 307436,
+            "byte_match": false,
+            "embed_time_sec": 4.634303331375122,
+            "throughput_bytes_per_sec": 168609.16175034703
+        }
+    },
+    {
+        "label": "jet",
+        "timestamp": "2026-04-23 11:51:13",
+        "metrics": {
+            "psnr": 39.66200312038661,
+            "ssim": 0.8778609810368069,
+            "mse": 7.028778553009033,
+            "ber": 0.0,
+            "bpp": 5.081854838709678,
+            "payload_bytes": 781386,
+            "extracted_bytes": 781386,
+            "byte_match": true,
+            "embed_time_sec": 13.752787828445435,
+            "throughput_bytes_per_sec": 56816.5531052423
+        }
+    },
+    {
+        "label": "tank",
+        "timestamp": "2026-04-27 12:04:48",
+        "metrics": {
+            "psnr": 46.95543857263033,
+            "ssim": 0.986683076543247,
+            "mse": 1.3108001947402954,
+            "ber": 0.0,
+            "bpp": 1.1218294551823356,
+            "payload_bytes": 286955,
+            "extracted_bytes": 286955,
+            "byte_match": true,
+            "embed_time_sec": 6.322719573974609,
+            "throughput_bytes_per_sec": 45384.742537239144
+        }
+    },
+    {
+        "label": "brain",
+        "timestamp": "2026-10-02 14:56:07",
+        "metrics": {
+            "psnr": 51.283403621272576,
+            "ssim": 0.9959728341631472,
+            "mse": 0.4838826060295105,
+            "ber": 0.0,
+            "bpp": 0.4268339201877934,
+            "payload_bytes": 58186,
+            "extracted_bytes": 58186,
+            "byte_match": true,
+            "embed_time_sec": 3.3843626976013184,
+            "throughput_bytes_per_sec": 17192.6017389447
+        }
+    }
+]
