@@ -1,0 +1,166 @@
+ding secret images into cover images in a secured manner. The evaluation is done on the Classified ImageNet dataset (a
+reversed for the secret image’s decryption. DL-Steg has a maximum peak to signal noise ratio (PSNR) of 45.5940 and a
+structural similarity index measure (SSIM) of 0.9877, indicating better image quality and similarity and has a minimum
+mean squared error (MSE) of 0.143 and a good payload capacity of 24 bpp. The overall research model excelled against
+all the compared models with better results.
+secret data, hence preventing it from being detectable and
+ganalysis can really yield good results, being able to pro -
+any perceptible manner), capacity (determine how much
+and allowing for higher payload capacity and greater resis -
+steganographic techniques often fail to balance payload
+capacity and imperceptibility, thereby making them vulner -
+oughly assesses the performance using the ImageNet Data -
+taset with assessing metrics such as MSE, PSNR, SSIM.
+●To validate the performance of the research model by
+comparing the results with other current models.
+proposed methodology section. Results and discussion of
+capabilities by hiding and retrieving images. Results show
+thereby yielding a relative steganographic capacity of one.
+assisted CNN (SA-CNN). SA-CNN was adaptable in that it
+used to generate stego images. The results showed that the
+effect on the steganalysis performances. Much importantly,
+the hiding process. The evaluation of the method was per -
+nal method in terms of both the capacity to go unnoticed and
+A high-capacity Invertible Steganography Network
+enhancement of steganography payload capacity, ranking
+the first in both visual and quantitative evaluations.
+A performance analysis of CNNs using three DL archi -
+secret image through entropy, SSIM, MSE, PSNR, and
+Brisque Score. This architecture ensures a high payload
+capacity without compromising the visual quality pertain -
+embedding module. The model had a higher PSNR value,
+est payload capacity with good PSNR and SSIM values,
+with the evaluation of image quality measures indicating the
+ing and testing samples [ 28].modifications to increase payload capacity, security, and
+new opportunities for improving the overall performance.
+capabilities and hence bigger results.
+in Table 1, it is observed that classical steganographic
+ments, tend to have limited payload capacity and thus notice -
+While AE-based methods were more suitable for compres -
+unstable to train and need large computational overheads.
+ceptibility, payload capacity, and robustness better than any
+teristic of the training samples. This process results in the
+with high payload
+capacityHigh PSNR and SSIM
+CNN architecturesSuperior performance
+training and evaluation
+steganographyHigh PSNR value,
+phy with high payloadHigh PSNR and SSIM
+steganalysisIdentifying payloads in
+digital imagesEffective payload
+for different payloads
+[23]ISN High-capacity imaging
+ity and high payloadIncreased model
+steganographyTop results in steg -
+and EMDImproving payload
+capacity, security, and
+resultsComplexity in training
+model trainingTable 1  Comparative analysis of
+enhances the memory capacity of input by including mem -
+result from the current cell states.
+both the encoder and decoder sections, resulting in a SAE-
+of the RNN cells. The encoder transmits the context vectors Table 2  Hyperparameter details [ 30]
+This section evaluates the performance of the research
+various metrics such as MSE, SSIM, PSNR, and payload
+capacity.
+4.2 Performance metrics
+Typically, the compressed image must exhibit dissimi -
+larities compared to the actual image. Hence, the PSNR is
+image in relation to the original image. A greater PSNR
+embedded as destructive noise, resulting in a degradation of
+PSNR signifies that the hidden picture’s noise induced by
+mance of this research model: PSNR and MSE [ 12].
+MSE =1
+and their dimensions are identical. The MSE quantifies the ht=LSTM de(ot−1,st−1) (14)
+of imaging steganography, refer to Table 2. In this hybrid
+ensures that the key features of a secret image are preserved Table 3  Cover and secret images used in experiment
+Journal of Umm Al-Qura University for Engineering and ArchitectureThe PSNR for RGB images, where all the pixels have three
+SSIM is a metric utilized to quantify the resemblance
+SSIM (S, C )=(2µCµS+C1) (2σSC+C2)
+the variables. The SSIM and PSNR values are derived by
+Furthermore, the capacity of the image information pay -
+Here, the payload capacity (PC) denotes the quantity of
+ally depicted in Fig. 7. The results of the proposed DL-Steg
+4.3 Performance evaluation
+This part presents the results obtained using the proposed
+input dataset. Table 3 presents the samples of input images
+PSNR = 10log10(MAX2
+MSE)
+grayscale images, the highest possible pixel value is 255. Table 4  PSNR and SSIM Results on Test Images
+bald eagle cover image with 43.9849 dB PSNR and 0.9857
+SSIM rate. The Elephant in Backpack image represents the
+image with 44.2132 dB PSNR and 0.9735 SSIM. The Air -
+cover image with 45.5940 dB PSNR and 0.9877 SSIM.
+dB PSNR and 0.9760 SSIM. Finally, the Acorn in Beagle
+in beagle cover image with 42.3709 dB PSNR and 0.9707
+SSIM. Overall, the Aircraft Carrier in Chameleon image has
+the best scores of PSNR and SSIM. Figure 8 depicts the
+graphical plot of the PSNR and SSIM results attained by the
+To increase the reliability of evaluation, in Table 5, the
+For all pairs, PSNR, Structural SSIM, and MSE were cal -
+formance. From the extended results, DL-Steg achieves
+an average PSNR of 45.21 ± 0.67 dB, an average SSIM of
+0.9854 ± 0.0041, and an average MSE of 0.152 ± 0.013 over
+the entire evaluation set, with remarkably low deviations,
+indicating that the model behaves in a stable and consistent
+for PSNR [45.08, 45.34], SSIM [0.9848, 0.9860], and MSE
+ments in the performance measures are statistically signifi -
+Table 6 represents the encryption time and decryption
+Table 7 presents the results of the proposed research
+were carried out in terms of PSNR, SSIM, encryption time,
+decryption time, MSE, and payload capacity.
+Table 4 presents the PSNR and SSIM results on the test
+images. The table includes the results on five test images
+such as Binocular in Bald Eagle, Elephant in Backpack, Table 5  Statistical analysis of aggregated performance
+PSNR (dB) 45.21 ± 0.67 [45.08, 45.34]
+SSIM 0.9854 ± 0.0041 [0.9848, 0.9860]
+MSE 0.152 ± 0.013 [0.148, 0.156]
+Table 6  Encryption and decryption time
+Fig. 8  Graphical plot of PSNR and SSIM results
+current models in terms of evaluated metrics such as PSNR,
+SSIM, and MSE.
+PSNR with 45.5940 dB, which is 1.26% to 16.5% improved
+DNN and Ste-Guz have the second-best score of PSNR
+was UNet + + encoder in PSNR. The SSIM score of the
+higher than the other models. The UNet encoder model has Table 8  Comparison of DL-Steg model with baseline models
+Model PSNR
+(dB)SSIM MSE Pay-
+Fig. 12  Graphical plot of PSNR and payload comparison
+Fig. 11  Graphical plot of SSIM comparison
+Fig. 10  Graphical plot of PSNR comparison Models Dataset Used PSNR SSIM MSE Payload Capacity (bpp)
+Proposed DL-Steg ImageNet 45.5940 0.9877 0.143 24Table 7  Comparison of perfor -
+payload of 24 bpp, greatly outperformed all baselines with
+PSNR 45.59 dB, SSIM 0.9877, and MSE 0.143, proving
+image quality as reflected by the highest PSNR and SSIM
+effective with the minimum MSE. It affords a massive pay -
+load capacity while retaining the ability to resist detection;
+hyperparameters for achieving optimal results across differ -
+Figure 12 represents Graphical Plot of PSNR and Pay -
+SSIM and MSE Comparison.
+with notable improvement in image quality, robustness, and
+payload amount. This research made use of the classified
+PSNR of 45.5940 and SSIM of 0.9877, pointing to superb
+image quality and resemblance. It also attains low MSE of
+0.143, along with a reasonable load of opening capacity of a very close SSIM rate to the proposed model with 0.9875.
+The least performed model was AE with 0.84 SSIM. The
+research model has a low error rate of 0.143 MSE, which is
+lutional AE and AE. The research model can carry a payload
+plots of PSNR and SSIM.
+Overall, the results highlight the performance of the
+research model in terms of PSNR, SSIM, MSE, and pay -
+load capacity for image steganography. This proposed DL-
+PSNR and SSIM, thus exhibiting better image quality and
+similarity. Also, it scored the lowest MSE of 0.143 and a
+high payload capacity of 24 bpp. These parameters show -
+ing a fair amount of payload capacity, thereby making it a
+(without LSTM). As seen in Table 8, the SAE-only system
+attained rather poor performance (PSNR 41.82 dB, SSIM
+0.9712, MSE 0.226) since it was not capable of capturing
+tion fidelity (PSNR 43.95 dB, SSIM 0.9798, MSE 0.188),
+embedding fidelity (PSNR 42.77 dB, SSIM 0.9756, MSE
+Fig. 13  Graphical Plot of SSIM and MSE Comparison
+capacity image steganography method combined with image
+Comparative performance assessment of deep learning based
+further in terms of performance and security.
+23. Lu SP, Wang R, Zhong T, Rosin PL (2021) Large-capacity image
+diction: a review and new modeling results. Energies 15(3):1061.
