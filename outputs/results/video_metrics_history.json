@@ -1,0 +1,74 @@
+[
+    {
+        "label": "training",
+        "timestamp": "2026-04-22 01:49:12",
+        "metrics": {
+            "frame_count": 277,
+            "fps": 25.0,
+            "resolution": "3840x2160",
+            "sampled_frames": 47,
+            "sample_step": 6,
+            "avg_psnr": 98.07874520329874,
+            "min_psnr": 55.70102455504069,
+            "avg_ssim": 0.9999656889873834,
+            "min_ssim": 0.9983873824070183,
+            "avg_mse": 0.003722888675141842,
+            "ber": 0.0,
+            "payload_bytes": 2410949,
+            "extracted_bytes": 2410949,
+            "byte_match": true,
+            "payload_bpp": 0.008394856292062219,
+            "embed_time_sec": 522.729820728302,
+            "throughput_bytes_per_sec": 4612.227778856973,
+            "frame_step_requested": 0
+        }
+    },
+    {
+        "label": "meeting",
+        "timestamp": "2026-04-22 02:42:40",
+        "metrics": {
+            "frame_count": 459,
+            "fps": 30.0,
+            "resolution": "1280x720",
+            "sampled_frames": 42,
+            "sample_step": 11,
+            "avg_psnr": 90.75194162839955,
+            "min_psnr": 55.690050294303745,
+            "avg_ssim": 0.9995859216807472,
+            "min_ssim": 0.9976268531825321,
+            "avg_mse": 0.033354303311733974,
+            "ber": 0.0,
+            "payload_bytes": 10287174,
+            "extracted_bytes": 10287174,
+            "byte_match": true,
+            "payload_bpp": 0.1945498592955701,
+            "embed_time_sec": 84.89441299438477,
+            "throughput_bytes_per_sec": 121176.10143179189,
+            "frame_step_requested": 0
+        }
+    },
+    {
+        "label": "weapon",
+        "timestamp": "2026-04-22 02:52:39",
+        "metrics": {
+            "frame_count": 838,
+            "fps": 59.94005994005994,
+            "resolution": "1280x720",
+            "sampled_frames": 42,
+            "sample_step": 20,
+            "avg_psnr": 77.35012698009035,
+            "min_psnr": 55.69338267651443,
+            "avg_ssim": 0.998786040165846,
+            "min_ssim": 0.9975572242567106,
+            "avg_mse": 0.08750344458080474,
+            "ber": 0.0,
+            "payload_bytes": 12400646,
+            "extracted_bytes": 12400646,
+            "byte_match": true,
+            "payload_bpp": 0.12845405313577302,
+            "embed_time_sec": 112.23763990402222,
+            "throughput_bytes_per_sec": 110485.62684144254,
+            "frame_step_requested": 0
+        }
+    }
+]
